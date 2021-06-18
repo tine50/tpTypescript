@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Point_1 = require("./Point");
+var TroisPoints_1 = require("./TroisPoints");
+var point1 = new Point_1.Point(2, 1);
+var point2 = new Point_1.Point(2, 3);
+var point3 = new Point_1.Point(4, 1);
+var test1 = new TroisPoints_1.TroisPoints(point1, point2, point3);
+console.log(test1.TesterAlignement());
+console.log(test1.estIsocele());
+console.log(test1.premier);
